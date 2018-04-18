@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>FCC Above 1G</title>
+  <style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+    }
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    span {
+    width: 100%;
+    display: block;
+    }
+   </style>
+</head>
+<body>
+    <h1>FCC Above 1G</h1>
+    <table id='worksheet_table' class="table table-striped">
+        <thead>
+            <tr>
+                <th>Frequency  MHz</th>
+                <th>Raw  dBuV</th>
+                <th>Cable  Loss</th>
+                <th>AF  dB</th>
+                <th>Amp dB</th>
+                <th>Level  dBuV/m</th>
+                <th>Measurement  Type</th>
+                <th>Pol</th>
+                <th>Hgt  cm</th>
+                <th>Azt  Deg</th>
+                <th>Limit  dBuV/m</th>
+                <th>Margin  dB</th>
+                <th>Pass  /Fail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span id="freq0" contenteditable onkeyup="getValues(0)" ></span></td>
+                <td><span id="raw0" contenteditable onkeyup="getValues(0)"></span></td>
+                <td id="cable0" name="cable" ></td>
+                <td id="af0" name="af"></td>
+                <td id="amp0" name="amp"></td>
+                <td id="level0" name="level"></td>
+                <td id="inPackage" name="inPackage">Peak Max</td>
+                <td><span contenteditable></span></td>
+                <td><span contenteditable></span></td>
+                <td><span contenteditable></span></td>
+                <td id="limit0" name="limit">74</td>
+                <td id="margin0" name="margin"></td>
+                <td id="pf0" name="pf"></td>
+            </tr>
+            <tr>
+                <td><span id="freq1" contenteditable onkeyup="getValues(1)" ></span></td>
+                <td><span id="raw1" contenteditable onkeyup="getValues(1)"></span></td>
+                <td id="cable1" name="cable" ></td>
+                <td id="af1" name="af"></td>
+                <td id="amp1" name="amp"></td>
+                <td id="level1" name="level"></td>
+                <td id="inPackage" name="inPackage">Peak Max</td>
+                <td><span contenteditable></span></td>
+                <td><span contenteditable></span></td>
+                <td><span contenteditable></span></td>
+                <td id="limit1" name="limit">74</td>
+                <td id="margin1" name="margin"></td>
+                <td id="pf1" name="pf"></td>
+            </tr>
+            <tr>
+                <td><span id="freq2" contenteditable onkeyup="getValues(2)" ></span></td>
+                <td><span id="raw2" contenteditable onkeyup="getValues(2)"></span></td>
+                <td id="cable2" name="cable" ></td>
+                <td id="af2" name="af"></td>
+                <td id="amp2" name="amp"></td>
+                <td id="level2" name="level"></td>
+                <td id="inPackage" name="inPackage">Peak Max</td>
+                <td><span contenteditable></span></td>
+                <td><span contenteditable></span></td>
+                <td><span contenteditable></span></td>
+                <td id="limit2" name="limit">74</td>
+                <td id="margin2" name="margin"></td>
+                <td id="pf2" name="pf"></td>
+            </tr>
+            <tr>
+                <td><span id="freq3" contenteditable onkeyup="getValues(3)" ></span></td>
+                <td><span id="raw3" contenteditable onkeyup="getValues(3)"></span></td>
+                <td id="cable3" name="cable" ></td>
+                <td id="af3" name="af"></td>
+                <td id="amp3" name="amp"></td>
+                <td id="level3" name="level"></td>
+                <td id="inPackage" name="inPackage">Average Max</td>
+                <td><span contenteditable></span></td>
+                <td><span contenteditable></span></td>
+                <td><span contenteditable></span></td>
+                <td id="limit3" name="limit">54</td>
+                <td id="margin3" name="margin"></td>
+                <td id="pf3" name="pf"></td>
+            </tr>
+            <tr>
+                <td><span id="freq4" contenteditable onkeyup="getValues(4)" ></span></td>
+                <td><span id="raw4" contenteditable onkeyup="getValues(4)"></span></td>
+                <td id="cable4" name="cable" ></td>
+                <td id="af4" name="af"></td>
+                <td id="amp4" name="amp"></td>
+                <td id="level4" name="level"></td>
+                <td id="inPackage" name="inPackage">Average Max</td>
+                <td><span contenteditable></span></td>
+                <td><span contenteditable></span></td>
+                <td><span contenteditable></span></td>
+                <td id="limit4" name="limit">54</td>
+                <td id="margin4" name="margin"></td>
+                <td id="pf4" name="pf"></td>
+            </tr>
+            <tr>
+                <td><span id="freq5" contenteditable onkeyup="getValues(5)" ></span></td>
+                <td><span id="raw5" contenteditable onkeyup="getValues(5)"></span></td>
+                <td id="cable5" name="cable" ></td>
+                <td id="af5" name="af"></td>
+                <td id="amp5" name="amp"></td>
+                <td id="level5" name="level"></td>
+                <td id="inPackage" name="inPackage">Average Max</td>
+                <td><span contenteditable></span></td>
+                <td><span contenteditable></span></td>
+                <td><span contenteditable></span></td>
+                <td id="limit5" name="limit">54</td>
+                <td id="margin5" name="margin"></td>
+                <td id="pf5" name="pf"></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+    <input type="button" value="select table"
+   onclick="selectElementContents( document.getElementById('worksheet_table') );">
+    <script src="cal.js"> </script>    
+    <script type="text/javascript">
+        function selectElementContents(el) {
+            var body = document.body, range, sel;
+            if (document.createRange && window.getSelection) {
+                range = document.createRange();
+                sel = window.getSelection();
+                sel.removeAllRanges();
+                try {
+                    range.selectNodeContents(el);
+                    sel.addRange(range);
+                } catch (e) {
+                    range.selectNode(el);
+                    sel.addRange(range);
+                }
+            } else if (body.createTextRange) {
+                range = body.createTextRange();
+                range.moveToElementText(el);
+                range.select();
+                range.execCommand("Copy");
+            }
+        }
+    
+    </script>
+</body>
+</html>
