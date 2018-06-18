@@ -1720,211 +1720,639 @@ var ant = [
 var amp = [
   {
     Freq: 1000,
-    Result: 35.65
+    Result: 47.933
+  },
+  {
+    Freq: 1250,
+    Result: 47.914
   },
   {
     Freq: 1500,
-    Result: 34.38
+    Result: 47.447
+  },
+  {
+    Freq: 1750,
+    Result: 46.784
   },
   {
     Freq: 2000,
-    Result: 34.05
+    Result: 46.409
+  },
+  {
+    Freq: 2250,
+    Result: 46.336
   },
   {
     Freq: 2500,
-    Result: 35.91
+    Result: 46.404
+  },
+  {
+    Freq: 2750,
+    Result: 46.593
   },
   {
     Freq: 3000,
-    Result: 34.22
+    Result: 46.795
+  },
+  {
+    Freq: 3250,
+    Result: 46.649
   },
   {
     Freq: 3500,
-    Result: 34.66
+    Result: 46.621
+  },
+  {
+    Freq: 3750,
+    Result: 46.39
   },
   {
     Freq: 4000,
-    Result: 33.98
+    Result: 46.318
+  },
+  {
+    Freq: 4250,
+    Result: 46.336
   },
   {
     Freq: 4500,
-    Result: 35.39
+    Result: 45.849
+  },
+  {
+    Freq: 4750,
+    Result: 45.36
   },
   {
     Freq: 5000,
-    Result: 35.45
+    Result: 45.569
+  },
+  {
+    Freq: 5250,
+    Result: 45.147
   },
   {
     Freq: 5500,
-    Result: 35.5
+    Result: 44.956
+  },
+  {
+    Freq: 5750,
+    Result: 44.515
   },
   {
     Freq: 6000,
-    Result: 35.62
+    Result: 43.85
+  },
+  {
+    Freq: 6250,
+    Result: 44.158
   },
   {
     Freq: 6500,
-    Result: 35.92
+    Result: 43.996
+  },
+  {
+    Freq: 6750,
+    Result: 43.731
   },
   {
     Freq: 7000,
-    Result: 36.08
+    Result: 43.507
+  },
+  {
+    Freq: 7250,
+    Result: 43.408
   },
   {
     Freq: 7500,
-    Result: 36.25
+    Result: 43.234
+  },
+  {
+    Freq: 7750,
+    Result: 43.052
   },
   {
     Freq: 8000,
-    Result: 36.48
+    Result: 42.825
+  },
+  {
+    Freq: 8250,
+    Result: 42.927
   },
   {
     Freq: 8500,
-    Result: 36.6
+    Result: 42.646
+  },
+  {
+    Freq: 8750,
+    Result: 42.49
   },
   {
     Freq: 9000,
-    Result: 36.05
+    Result: 42.066
+  },
+  {
+    Freq: 9250,
+    Result: 41.924
   },
   {
     Freq: 9500,
-    Result: 36.17
+    Result: 42.001
+  },
+  {
+    Freq: 9750,
+    Result: 41.522
   },
   {
     Freq: 10000,
-    Result: 35.87
+    Result: 41.43
+  },
+  {
+    Freq: 10250,
+    Result: 41.37
   },
   {
     Freq: 10500,
-    Result: 36.15
+    Result: 41.507
+  },
+  {
+    Freq: 10750,
+    Result: 41.329
   },
   {
     Freq: 11000,
-    Result: 35.92
+    Result: 41.078
+  },
+  {
+    Freq: 11250,
+    Result: 41.144
   },
   {
     Freq: 11500,
-    Result: 35.78
+    Result: 40.878
+  },
+  {
+    Freq: 11750,
+    Result: 40.777
   },
   {
     Freq: 12000,
-    Result: 35.45
+    Result: 41.104
+  },
+  {
+    Freq: 12250,
+    Result: 40.989
   },
   {
     Freq: 12500,
-    Result: 34.84
+    Result: 40.421
+  },
+  {
+    Freq: 12750,
+    Result: 40.321
   },
   {
     Freq: 13000,
-    Result: 34.07
+    Result: 40.447
+  },
+  {
+    Freq: 13250,
+    Result: 40.651
   },
   {
     Freq: 13500,
-    Result: 33.87
+    Result: 40.287
+  },
+  {
+    Freq: 13750,
+    Result: 40.361
   },
   {
     Freq: 14000,
-    Result: 34.74
+    Result: 40.65
+  },
+  {
+    Freq: 14250,
+    Result: 40.436
   },
   {
     Freq: 14500,
-    Result: 34.26
+    Result: 40.852
+  },
+  {
+    Freq: 14750,
+    Result: 41.055
   },
   {
     Freq: 15000,
-    Result: 34.29
+    Result: 40.815
+  },
+  {
+    Freq: 15250,
+    Result: 40.706
   },
   {
     Freq: 15500,
-    Result: 34.72
+    Result: 40.698
+  },
+  {
+    Freq: 15750,
+    Result: 40.831
   },
   {
     Freq: 16000,
-    Result: 34.98
+    Result: 41
+  },
+  {
+    Freq: 16250,
+    Result: 40.436
   },
   {
     Freq: 16500,
-    Result: 35.72
+    Result: 40.14
+  },
+  {
+    Freq: 16750,
+    Result: 40.079
   },
   {
     Freq: 17000,
-    Result: 34.86
+    Result: 40.059
+  },
+  {
+    Freq: 17250,
+    Result: 39.745
   },
   {
     Freq: 17500,
-    Result: 33.14
+    Result: 39.42
+  },
+  {
+    Freq: 17750,
+    Result: 39.261
   },
   {
     Freq: 18000,
-    Result: 32.54
+    Result: 38.702
+  },
+  {
+    Freq: 18250,
+    Result: 38.578
   },
   {
     Freq: 18500,
-    Result: 33.11
+    Result: 38.867
+  },
+  {
+    Freq: 18750,
+    Result: 38.892
   },
   {
     Freq: 19000,
-    Result: 34.74
+    Result: 38.823
+  },
+  {
+    Freq: 19250,
+    Result: 38.356
   },
   {
     Freq: 19500,
-    Result: 34.77
+    Result: 38.91
+  },
+  {
+    Freq: 19750,
+    Result: 39.321
   },
   {
     Freq: 20000,
-    Result: 32.87
+    Result: 39.767
+  },
+  {
+    Freq: 20000.0001,
+    Result: 38.965
+  },
+  {
+    Freq: 20250,
+    Result: 39.539
   },
   {
     Freq: 20500,
-    Result: 32.08
+    Result: 39.3
+  },
+  {
+    Freq: 20750,
+    Result: 39.934
   },
   {
     Freq: 21000,
-    Result: 34.22
+    Result: 39.692
+  },
+  {
+    Freq: 21250,
+    Result: 39.739
   },
   {
     Freq: 21500,
-    Result: 32.63
+    Result: 39.732
+  },
+  {
+    Freq: 21750,
+    Result: 39.471
   },
   {
     Freq: 22000,
-    Result: 33.16
+    Result: 39.206
+  },
+  {
+    Freq: 22250,
+    Result: 39.011
   },
   {
     Freq: 22500,
-    Result: 33.32
+    Result: 38.853
+  },
+  {
+    Freq: 22750,
+    Result: 39.199
   },
   {
     Freq: 23000,
-    Result: 31.94
+    Result: 39.059
+  },
+  {
+    Freq: 23250,
+    Result: 39.065
   },
   {
     Freq: 23500,
-    Result: 31.87
+    Result: 38.549
+  },
+  {
+    Freq: 23750,
+    Result: 38.143
   },
   {
     Freq: 24000,
-    Result: 31.56
+    Result: 37.441
+  },
+  {
+    Freq: 24250,
+    Result: 36.756
   },
   {
     Freq: 24500,
-    Result: 30.49
+    Result: 36.718
+  },
+  {
+    Freq: 24750,
+    Result: 35.404
   },
   {
     Freq: 25000,
-    Result: 29.91
+    Result: 35.3
+  },
+  {
+    Freq: 25250,
+    Result: 35.491
   },
   {
     Freq: 25500,
-    Result: 30.41
+    Result: 35.402
+  },
+  {
+    Freq: 25750,
+    Result: 35.358
   },
   {
     Freq: 26000,
-    Result: 26.52
+    Result: 35.185
+  },
+  {
+    Freq: 26250,
+    Result: 35.404
+  },
+  {
+    Freq: 26499.999,
+    Result: 35.36
   },
   {
     Freq: 26500,
-    Result: 21.87
+    Result: 35.538
+  },
+  {
+    Freq: 26750,
+    Result: 35.538
+  },
+  {
+    Freq: 27000,
+    Result: 35.195
+  },
+  {
+    Freq: 27250,
+    Result: 35.368
+  },
+  {
+    Freq: 27500,
+    Result: 34.316
+  },
+  {
+    Freq: 27750,
+    Result: 34.135
+  },
+  {
+    Freq: 28000,
+    Result: 33.331
+  },
+  {
+    Freq: 28250,
+    Result: 33.191
+  },
+  {
+    Freq: 28500,
+    Result: 33.493
+  },
+  {
+    Freq: 28750,
+    Result: 33.978
+  },
+  {
+    Freq: 29000,
+    Result: 34.343
+  },
+  {
+    Freq: 29250,
+    Result: 33.937
+  },
+  {
+    Freq: 29500,
+    Result: 34.334
+  },
+  {
+    Freq: 29750,
+    Result: 34.408
+  },
+  {
+    Freq: 30000,
+    Result: 34.786
+  },
+  {
+    Freq: 30250,
+    Result: 34.534
+  },
+  {
+    Freq: 30500,
+    Result: 34.631
+  },
+  {
+    Freq: 30750,
+    Result: 34.894
+  },
+  {
+    Freq: 31000,
+    Result: 35.03
+  },
+  {
+    Freq: 31250,
+    Result: 35.464
+  },
+  {
+    Freq: 31500,
+    Result: 34.988
+  },
+  {
+    Freq: 31750,
+    Result: 35.085
+  },
+  {
+    Freq: 32000,
+    Result: 35.241
+  },
+  {
+    Freq: 32250,
+    Result: 35.662
+  },
+  {
+    Freq: 32500,
+    Result: 35.77
+  },
+  {
+    Freq: 32750,
+    Result: 35.63
+  },
+  {
+    Freq: 33000,
+    Result: 35.205
+  },
+  {
+    Freq: 33250,
+    Result: 35.024
+  },
+  {
+    Freq: 33500,
+    Result: 34.617
+  },
+  {
+    Freq: 33750,
+    Result: 34.714
+  },
+  {
+    Freq: 34000,
+    Result: 34.764
+  },
+  {
+    Freq: 34250,
+    Result: 34.396
+  },
+  {
+    Freq: 34500,
+    Result: 33.69
+  },
+  {
+    Freq: 34750,
+    Result: 33.338
+  },
+  {
+    Freq: 35000,
+    Result: 33.481
+  },
+  {
+    Freq: 35250,
+    Result: 33.612
+  },
+  {
+    Freq: 35500,
+    Result: 34.261
+  },
+  {
+    Freq: 35750,
+    Result: 35.038
+  },
+  {
+    Freq: 36000,
+    Result: 35.073
+  },
+  {
+    Freq: 36250,
+    Result: 35.362
+  },
+  {
+    Freq: 36500,
+    Result: 35.288
+  },
+  {
+    Freq: 36750,
+    Result: 36.304
+  },
+  {
+    Freq: 37000,
+    Result: 36.105
+  },
+  {
+    Freq: 37250,
+    Result: 35.789
+  },
+  {
+    Freq: 37500,
+    Result: 35.876
+  },
+  {
+    Freq: 37750,
+    Result: 36.481
+  },
+  {
+    Freq: 38000,
+    Result: 36.242
+  },
+  {
+    Freq: 38250,
+    Result: 36.093
+  },
+  {
+    Freq: 38500,
+    Result: 36.791
+  },
+  {
+    Freq: 38750,
+    Result: 36.731
+  },
+  {
+    Freq: 39000,
+    Result: 36.198
+  },
+  {
+    Freq: 39250,
+    Result: 36.283
+  },
+  {
+    Freq: 39500,
+    Result: 35.99
+  },
+  {
+    Freq: 39750,
+    Result: 35.19
+  },
+  {
+    Freq: 40000,
+    Result: 35.782
   }
 ];
 
@@ -1946,6 +2374,6 @@ function find_res(freq, table) {
   data_low = table[idx1 - 1]["Result"];
   data =
     data_low +
-    (data_high - data_low) * (freq - freq_low) / (freq_high - freq_low);
+    ((data_high - data_low) * (freq - freq_low)) / (freq_high - freq_low);
   return data.toFixed(2);
 }
